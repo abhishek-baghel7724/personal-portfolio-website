@@ -1,108 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-      <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Portfolio website showcasing my web development skills and projects.">
-      <meta name="author" content="[Your Name]">
-      <meta name="keywords" content="web development, portfolio, projects, front-end developer, HTML, CSS, JavaScript">
-      <title>Abhishek - Web Developer Portfolio</title>
-      <!-- Link to Google Font -->
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-      <script defer src="scipt.js"></script>
-      <link rel="icon" href="favicon.ico" type="image/x-icon">
-   </head>
-   <body>
-      <!-- Header Section -->
-      <header role="banner">
-         <!-- Hamburger Icon for mobile view -->
-         <div id="hamburger-icon" class="hamburger-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-         </div>
-         <nav role="navigation">
-            <ul>
-               <li>
-                  <a href="#about-me">About Me</a>
-               </li>
-               <li>
-                  <a href="#projects">Projects</a>
-               </li>
-               <li>
-                  <a href="#skills">Skills</a>
-               </li>
-               <li>
-                  <a href="#contact">Contact</a>
-               </li>
-            </ul>
-         </nav>
-      </header>
-      <!-- About Me Section -->
-      <section id="about-me">
-         <h2>About Me</h2>
-         <p>Hi, I'm Abhishek Baghel, a passionate web developer who loves to create dynamic and responsive websites. I specialize in front-end development and have experience with HTML, CSS, JavaScript, and more.</p>
-      </section>
-      <!-- Project filter -->
-      <div id="project-filter">
-         <button data-category="all">All</button>
-         <button data-category="web">Web Development</button>
-         <button data-category="design">Design</button>
-      </div>
-      <!-- Projects Section -->
-      <section id="projects">
-         <h2>Projects</h2>
-         <article class="web">
-            <h3>Project 1: Portfolio Website</h3>
-            <p>This is a personal portfolio website built with HTML, CSS, and JavaScript to showcase my skills and projects.</p>
-            <figure>
-               <img class="placeholder" src="https://placehold.co/256x256?text=Portfolio" alt="Screenshot of my portfolio website" />
-               <figcaption>Portfolio Website</figcaption>
-            </figure>
-         </article>
-         <article class="design">
-            <h3>Project 2: E-commerce Site</h3>
-            <p>A fully functional e-commerce website developed with React and Node.js. It includes user authentication, a shopping cart, and payment gateway integration.</p>
-            <figure>
-               <img class="placeholder" src="https://placehold.co/256x256?text=E-commerce" alt="Screenshot of the e-commerce website" />
-               <figcaption>E-commerce Site</figcaption>
-            </figure>
-         </article>
-      </section>
-      <!-- Skills Section -->
-      <section id="skills">
-         <h2>Skills</h2>
-         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Git & GitHub</li>
-         </ul>
-      </section>
-      <!-- Contact Section -->
-      <section id="contact">
-         <h2>Contact</h2>
-         <form id="contact-form" action="#" method="POST">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send Message</button>
-         </form>
-      </section>
-      <!-- Footer Section -->
-      <footer role="contentinfo">
-         <p>&copy; 2025 Abhishek Baghel. All rights reserved.</p>
-      </footer>
-      <!-- Lightbox Modal -->
-      <div id="lightbox" class="lightbox">
-         <span id="close-modal" class="close-modal">&times;</span>
-         <img id="lightbox-image" src="" alt="Project image">
-      </div>
-   </body>
-</html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Abhishek Baghel — Computer Science graduate and aspiring Full-Stack Developer.">
+<meta name="theme-color" content="#0b1020"><title>Abhishek Baghel | Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script defer src="script.js"></script>
+</head>
+<body>
+<header class="header"><nav class="nav wrap"><a class="logo" href="#home">A<span>.</span></a><button class="menu" aria-label="Toggle menu" aria-expanded="false">☰</button><ul class="links"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul><a class="nav-cta" href="#contact">Let's talk ↗</a></nav></header>
+<main>
+<section class="hero wrap" id="home"><div class="hero-copy"><p class="eyebrow"><i></i> OPEN TO OPPORTUNITIES</p><p class="hello">Hello, I'm</p><h1>Abhishek<br><em>Baghel.</em></h1><h2>Aspiring <span id="role">Full-Stack Developer</span><b class="caret">|</b></h2><p class="intro">I build thoughtful, user-friendly web experiences and enjoy turning ideas into practical digital solutions.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work ↗</a><a class="btn secondary" href="assets/Abhishek_Baghel_Resume.pdf" download>Download resume ↓</a></div><div class="social"><small>FIND ME ON</small><a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><div class="visual"><div class="orbit"></div><div class="code"><div class="codebar"><span>● ● ●</span> developer.js</div><pre><span>01</span> <i>const</i> developer = {
+<span>02</span>   name: <b>'Abhishek'</b>,
+<span>03</span>   focus: <b>'Web Development'</b>,
+<span>04</span>   curious: <strong>true</strong>,
+<span>05</span>   building: <b>'the next idea'</b>
+<span>06</span> };
+<span>07</span> console.log(developer);</pre><div class="codefoot">● Available for opportunities</div></div><div class="float top">✳ Always learning</div><div class="float bottom">⌘ Build. Learn. Repeat.</div></div><a class="scroll" href="#about">↓ &nbsp; SCROLL TO EXPLORE</a></section>
+<section class="section wrap" id="about"><p class="label">01 / ABOUT</p><h2 class="heading">A little <em>about me.</em></h2><div class="about"><h3>Curious by nature.<br><em>Developer by choice.</em></h3><div><p>I'm a Computer Science graduate from Oriental Institute of Science and Technology, Bhopal, with an interest in building clean and useful web applications.</p><p>I'm growing my skills across frontend and backend development, learning by building projects, solving problems, and exploring better ways to create for the web.</p><div class="facts"><div><b>B.Tech</b><small>Computer Science</small></div><div><b>React + Node</b><small>Learning & building</small></div><div><b>Bhopal, India</b><small>Based in</small></div></div></div></div></section>
+<section class="section wrap" id="skills"><p class="label">02 / TOOLKIT</p><h2 class="heading">Skills I'm <em>building with.</em></h2><p class="muted">A growing toolkit for bringing ideas to life on the web.</p><div class="skills"><article><small>01</small><b>◇</b><h3>HTML5</h3><p>Semantic structure</p></article><article><small>02</small><b>▧</b><h3>CSS3</h3><p>Responsive styling</p></article><article><small>03</small><b>JS</b><h3>JavaScript</h3><p>Interactive experiences</p></article><article><small>04</small><b>⚛</b><h3>React</h3><p>Component-based UI</p></article><article><small>05</small><b>⬡</b><h3>Node.js</h3><p>Server-side basics</p></article><article><small>06</small><b>C++</b><h3>C++</h3><p>Programming fundamentals</p></article><article><small>07</small><b>Py</b><h3>Python</h3><p>Programming fundamentals</p></article></div></section>
+<section class="section wrap" id="projects"><p class="label">03 / SELECTED WORK</p><h2 class="heading">Things I've <em>built.</em></h2><p class="muted">A couple of projects from my learning journey.</p><div class="projects"><article class="project"><div class="art shop"><div class="mock-shop"><small>THE EVERYDAY EDIT</small><b>Find your<br>next favorite.</b><span>EXPLORE COLLECTION ↗</span></div><label>PROJECT 01</label></div><div class="project-info"><div><h3>E-commerce Website</h3><p>A shopping experience with a clean product-focused interface and full-stack foundations.</p></div><a href="https://github.com/yourusername" target="_blank" rel="noreferrer">↗</a></div><div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>CSS</span></div></article><article class="project"><div class="art vault"><div class="mock-vault"><h3>⌑ &nbsp; Vault</h3><small>YOUR PASSWORD SPACE</small><hr><p>◉ &nbsp; Google Account <span>••••••••</span></p><p>◉ &nbsp; Workspace <span>••••••••</span></p><p>◉ &nbsp; Social Account <span>••••••••</span></p></div><label>PROJECT 02</label></div><div class="project-info"><div><h3>Password Manager</h3><p>A simple web app concept for organizing and managing saved account credentials.</p></div><a href="https://github.com/yourusername" target="_blank" rel="noreferrer">↗</a></div><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article></div><p class="note">Replace the sample GitHub links with your individual project repository URLs.</p></section>
+<section class="contact" id="contact"><div class="wrap contact-inner"><p class="label">04 / GET IN TOUCH</p><h2>Have a project<br>in <em>mind?</em></h2><p class="muted">I'm open to learning opportunities, internships, and conversations about building for the web.</p><a class="email" href="mailto:your.email@example.com">your.email@example.com ↗</a><div class="contact-bottom"><div><a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div><small>BASED IN BHOPAL, INDIA</small></div></div></section>
+</main><footer class="footer wrap"><a class="logo" href="#home">A<span>.</span></a><p>Designed & built by Abhishek Baghel</p><small>© <span id="year"></span> ALL RIGHTS RESERVED</small></footer>
+</body></html>
